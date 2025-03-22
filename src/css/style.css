@@ -60,3 +60,36 @@ nav a:hover::before {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
+
+main {
+    display: flex;
+    margin-top: 25px;
+    gap: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+main img {
+    width: 100%;
+}
+
+main div {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 80%;
+    /* padding-left: 124px; */
+}
+
+main div input {
+    width: 267px;
+    height: 34px;
+    border-radius: 5px;
+    border: solid 1px #B9B5A6;
+    background-image: url(/src/assets/images/search.svg);
+    background-repeat: no-repeat;
+    background-position: calc(5%);
+    padding-left: 35px;
+}
