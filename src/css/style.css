@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/butler');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
     padding: 0;
@@ -92,4 +93,48 @@ main div input {
     background-repeat: no-repeat;
     background-position: calc(5%);
     padding-left: 35px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 112px;
+    gap: 60px;
+    font-family: 'Butler', sans-serif;
+}
+
+.hero-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero-description h2 {
+    font-weight: 800;
+    font-size: 16px;
+    text-align: center;
+}
+
+.hero-description h1 {
+    font-size: 48px;
+    width: 428px;
+    text-align: center;
+}
+
+.hero-description p {
+    text-align: center;
+    font-size: 18px;
+    width: 768px;
+    font-family: "Inter", sans-serif;
+    line-height: 150%;
+}
+
+.hero-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
