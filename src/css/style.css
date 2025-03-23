@@ -135,6 +135,32 @@ main div input {
 
 .hero-cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    gap: 48px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 405.33px;
+    height: 428px;
+}
+
+.card h1 {
+    width: 405px;
+    font-family: 'Butler';
+    font-size: 32px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.01em;
+}
+
+.card p {
+    width: 405px;
+    font-family: 'Butler';
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
 }
