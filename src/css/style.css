@@ -144,7 +144,7 @@ main div input {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    width: 405.33px;
+    width: 387.33px;
     height: 428px;
 }
 
@@ -163,4 +163,9 @@ main div input {
     font-size: 16px;
     line-height: 150%;
     text-align: center;
+}
+
+.card img {
+    width: 30vw;
+    height: auto;
 }
