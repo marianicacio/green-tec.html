@@ -93,6 +93,13 @@ main div input {
     background-repeat: no-repeat;
     background-position: calc(5%);
     padding-left: 35px;
+    box-shadow: 0px 1.66026px 5.57532px 0.3726px rgba(0, 0, 0, 0.25);
+    transition: border-color 0.5s ease-in;
+}
+
+main div input:focus {
+    outline: none;
+    border: 1.5px solid #3A5A40;
 }
 
 .hero-container {
@@ -103,6 +110,23 @@ main div input {
     margin-top: 112px;
     gap: 60px;
     font-family: 'Butler', sans-serif;
+}
+
+.hero-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    gap: 10px;
+    transition: 1s all ease;
+}
+
+.hero-container a:hover {
+    color: #4F4E4D;
 }
 
 .hero-description {
@@ -134,18 +158,16 @@ main div input {
 }
 
 .hero-cards {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+    gap: 20px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    width: 387.33px;
-    height: 428px;
+    align-items: center;
 }
 
 .card h1 {
