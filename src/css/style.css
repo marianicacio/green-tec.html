@@ -191,3 +191,58 @@ main div input:focus {
     width: 30vw;
     height: auto;
 }
+
+.benefits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 45px;
+    gap: 20px;
+    background-color: #3A5A40;
+}
+
+.benefits-container {
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+}
+
+.benefits-container h1 {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Butler', sans-serif;
+    color: #F8F8F6;
+}
+
+.benefits-container p {
+    font-size: 20px;
+    font-weight: 500;;
+    font-family: 'Butler', sans-serif;
+    color: #F8F8F6;
+}
+
+.cards-benefit {
+    display: flex;
+    gap: 10px;
+}
+
+.cards-benefit h1 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Butler', sans-serif;
+    color: #000000;
+}
+
+.cards-benefit p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: black;
+}
+
+.cards-benefit {
+    background-color: #F8FFDE;
+    width: 579.08px;
+    height: 164.5px;
+}
+
