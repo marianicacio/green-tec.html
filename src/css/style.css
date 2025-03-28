@@ -110,6 +110,7 @@ main div input:focus {
     margin-top: 112px;
     gap: 60px;
     font-family: 'Butler', sans-serif;
+    padding-bottom: 80px;
 }
 
 .hero-container a {
@@ -122,12 +123,24 @@ main div input:focus {
     color: black;
     font-family: "Inter", sans-serif;
     gap: 10px;
-    transition: 1s all ease;
+    transition: 0.5s all ease;
+    padding: 7px 11px;
+    border-radius: 80px;
 }
 
 .hero-container a:hover {
-    color: #4F4E4D;
+    background-color: black;
+    color: white;
+
+    img {
+        filter: invert(1);
+    }
 }
+
+.hero-container a img {
+    transition: 0.5s all ease;
+}
+
 
 .hero-description {
     display: flex;
@@ -196,8 +209,9 @@ main div input:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 80px 45px;
-    gap: 20px;
+    width: 100%;
+    gap: 5%;
+    padding: 40px;
     background-color: #3A5A40;
 }
 
@@ -205,13 +219,15 @@ main div input:focus {
     display: flex;
     flex-direction: column;
     gap: 57px;
+    width: 50%
 }
 
 .benefits-container h1 {
-    font-size: 48px;
+    font-size: 300%;
     font-weight: 400;
     font-family: 'Butler', sans-serif;
     color: #F8F8F6;
+    width: 100%; 
 }
 
 .benefits-container p {
@@ -223,26 +239,38 @@ main div input:focus {
 
 .cards-benefit {
     display: flex;
-    gap: 10px;
+    gap: 30px;
 }
 
 .cards-benefit h1 {
-    font-size: 20px;
+    font-size: 130%;
     font-weight: 400;
     font-family: 'Butler', sans-serif;
     color: #000000;
 }
 
 .cards-benefit p {
-    font-size: 16px;
+    font-size: 95%;
     font-weight: 400;
     font-family: "Inter", sans-serif;
     color: black;
 }
 
-.cards-benefit {
+.cards-b {
+    width: 100%;
     background-color: #F8FFDE;
-    width: 579.08px;
-    height: 164.5px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+    flex-direction: column;
+    padding: 20px 10px;
+    width: 280px;
+    height: auto;
+    gap: 8px;
 }
 
+.benefits figure img{
+    width: 100%;
+}
